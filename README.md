@@ -34,10 +34,10 @@ The plots indicate the diplacements of the links and their shaking forces and mo
 
 ![Displacement plot](Images/distance.PNG)
 > Displacement Plot
->
+
 ![S Force plot](Images/force.PNG)
 > Shaking Force Polar Plot
-> 
+
 > ![S Moment plot](Images/moment.PNG)
 > Shaking Force Polar Plot
 
