@@ -53,8 +53,7 @@ The plots indicate the diplacements of the links and their shaking forces and mo
 > 3D Printed Design
 
 ## CAD Simulation
-![prototype](Images/print.PNG)
-> 3D Printed Design
+> [Google Drive Shareable Link](https://drive.google.com/file/d/1JV9sbhNlPb88Fd5_gYw9fAsfWXPp2F5t/view?usp=sharing)
 
 ## Status
 Project is: _finished_
