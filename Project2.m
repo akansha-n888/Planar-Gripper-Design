@@ -111,11 +111,11 @@ while (i < length(A33_list))
     M42 = X(8);
 
     % Shaking Force
-    % idk about this part is it --> abs(((F12x+F42x)^2 +(F12y+F42y)^2)^(1/2))
+    % if both link 2 and 4 are connected to the base link --> abs(((F12x+F42x)^2 +(F12y+F42y)^2)^(1/2))
     Fs = abs(((F12x)^2 +(F12y)^2)^(1/2));
     Fs_data = [Fs_data;Fs];
     % Shaking Moment
-    % idk about this part is it --> M12 + M42
+    % if both link 2 and 4 are connected to the base link --> M12 + M42
     Ms = M12;
     Ms_data = [Ms_data; Ms];
 end
