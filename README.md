@@ -33,12 +33,15 @@ At stage 2 the grey gear train rotates causing the links (2 and 3) to move inwar
 The plots indicate the diplacements of the links and their shaking forces and moments.
 
 >![Displacement plot](Images/distance.PNG)
+>
 > Displacement Plot
 
 >![S Force plot](Images/force.PNG)
+>
 > Shaking Force Polar Plot
 
 > ![S Moment plot](Images/moment.PNG)
+> 
 > Shaking Force Polar Plot
 
 ## Design Assembly
