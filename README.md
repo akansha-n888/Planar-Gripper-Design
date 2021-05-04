@@ -1,5 +1,4 @@
 # Planar-Gripper-Design
-# fourier-figure8
 > A planar claw gripper capable of holding the weight of a 200g, 50mm cup is designed to operate in two stages with 2 separater motors and gear trains. The design simulated via the analytical force method obtains the shaking moments, shaking forces and plotted displacements of the rotating links.  
 
 ## Table of contents
@@ -20,12 +19,12 @@ The purpose of this project is to implement an a planar gripper that can carry a
 ## Design Schematic
 This design iteration is based on a 2 stage claw design that is reliant on two gear trains that cause independent motion between the linkage pairs 2,3 and 4,5. Links 2 and 3 are drawn in red and labelled accordingly. Links 4 and 5 are drawn in green. The first gear train drawn in grey indicates where the first motor will be located. The second gear train, drawn in black consists of multiple gears and indicates where the second motor will be located. The dotted purple line indicates the base link. The components drawn in pink are extensions of links 4 and 5 intended to maximize friction between the cup and gripper prongs. 
 
-![Open Claw](Images/plot.PNG)
+![Open Claw](Images/open.PNG)
 > Open Claw
 
 At stage 1 the claw is fully retracted outward. The gears within the dotted orange border do not mesh with the gears that are fixed on the base link. While the claw is fully retracted, motor 1 will run to rotate the gears in the grey gear train. Due to the gear train, links 2 and 3 will rotate inwards until the gears attached to the center points of the links mesh with the second gear train.
 
-![Closed Claw](Images/plot.PNG)
+![Closed Claw](Images/closed.PNG)
 > Closed Claw
 
 At stage 2 the grey gear train rotates causing the links (2 and 3) to move inwards. The motion enables the gears attached to the red links to mesh with the fixed gears at the base. After the gears have meshed and the second gear train rotates (due to the second motor), links 4 and 5 rotate inwards. 
@@ -33,21 +32,21 @@ At stage 2 the grey gear train rotates causing the links (2 and 3) to move inwar
 ## MATLAB Results
 The plots indicate the diplacements of the links and their shaking forces and moments.
 
-![plot](Images/plot.PNG)
+![Displacement plot](Images/distance.PNG)
 > Displacement Plot
 >
-![plot](Images/plot.PNG)
+![S Force plot](Images/force.PNG)
 > Shaking Force Polar Plot
 > 
-> ![plot](Images/plot.PNG)
+> ![S Moment plot](Images/moment.PNG)
 > Shaking Force Polar Plot
 
 ## Design Assembly
-![assembly](Images/cad.PNG)
-> CAD Assembly
+![assembly](Images/cadd.PNG)
+> CAD Drawings
 
 ## Final Prototype
-![prototype](Images/print.PNG)
+![prototype](Images/printed.PNG)
 > 3D Printed Design
 
 ## CAD Simulation
