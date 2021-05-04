@@ -29,20 +29,6 @@ At stage 1 the claw is fully retracted outward. The gears within the dotted oran
 
 At stage 2 the grey gear train rotates causing the links (2 and 3) to move inwards. The motion enables the gears attached to the red links to mesh with the fixed gears at the base. After the gears have meshed and the second gear train rotates (due to the second motor), links 4 and 5 rotate inwards. 
 
-## MATLAB Results
-The plots indicate the diplacements of the links and their shaking forces and moments.
-
->![Displacement plot](Images/distance.PNG)
->
-> Displacement Plot
-
->![S Force plot](Images/force.PNG)
->
-> Shaking Force Polar Plot
-
-> ![S Moment plot](Images/moment.PNG)
-> 
-> Shaking Force Polar Plot
 
 ## Design Assembly
 ![assembly](Images/cadd.PNG)
