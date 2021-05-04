@@ -4,9 +4,10 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Simulated Results](#simulated-results)
+* [Design Schematic](#design-schematic)
 * [Design Assembly](#design-assembly)
 * [Final Prototype](#final-prototype)
+* [CAD Simulation](#cad-simulation)
 * [Status](#status)
 * [Contact](#contact)
 
